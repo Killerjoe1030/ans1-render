@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "/css/histogram.css">
+    <script src = "/js/calculate.js" defer></script>
+</head>
+<body>
+    <main id = "mainpart">
+        <h1>Histogram Generator</h1>
+        <section class = "lowerbounds">
+            <table id = "lowerboundTable">
+                <tr><th>Lower bounds</th></tr>
+                <tr><td>Max</td><td><input type = "number" style= "width: 75px" value = "100.00" id = "MaxB"></td></tr>
+                <tr><td>A+</td><td><input type = "number" style= "width: 75px" value = "95.00" id = "AplusB"></td></tr>
+                <tr><td>A</td><td><input type = "number" style= "width: 75px" value = "90.00" id = "AB"></td></tr>
+                <tr><td>A-</td><td><input type = "number" style= "width: 75px" value = "85.00" id = "AminusB"></td></tr>
+                <tr><td>B+</td><td><input type = "number" style= "width: 75px" value = "80.00" id = "BplusB"></td></tr>               
+                <tr><td>B</td><td><input type = "number" style= "width: 75px" value = "75.00" id = "BB"></td></tr>
+                <tr><td>B-</td><td><input type = "number" style= "width: 75px" value = "70.00" id = "BminusB"></td></tr>
+                <tr><td>C+</td><td><input type = "number" style= "width: 75px" value = "65.00" id = "CplusB"></td></tr>
+                <tr><td>C</td><td><input type = "number" style= "width: 75px" value = "60.00" id = "CB"></td></tr>
+                <tr><td>C-</td><td><input type = "number" style= "width: 75px" value = "55.00" id = "CminusB"></td></tr>
+                <tr><td>D</td><td><input type = "number" style= "width: 75px" value = "50.00" id = "DB"></td></tr>
+                <tr><td>F</td><td><input type = "number" style= "width: 75px" value = "0.00" id = "FB"></td></tr>
+            </table>
+        </section>
+        <section class = "HistogramDisplay">
+            <table>
+                <tr><th id = "title2">Histogram</th></tr>
+                <tr><td>A+</td><td><div class = "Aplus"></div></td></tr>
+                <tr><td>A</td><td><div class = "A"></div></td></tr>
+                <tr><td>A-</td><td><div class = "Aminus"></div></td></tr>
+                <tr><td>B+</td><td><div class = "Bplus"></div></td></tr>
+                <tr><td>B</td><td><div class = "B"></div></td></tr>
+                <tr><td>B-</td><td><div class = "Bminus"></div></td></tr>
+                <tr><td>C+</td><td><div class = "Cplus"></div></td></tr>
+                <tr><td>C</td><td><div class = "C"></div></td></tr>
+                <tr><td>C-</td><td><div class = "Cminus"></div></td></tr>
+                <tr><td>D</td><td><div class = "D"></div></td></tr>
+                <tr><td>F</td><td><div class = "F"></div></td></tr>
+            </table>
+        </section>
+        <section class = "InputBox">
+            New Grade: <input name = "newGrade" type = "number"  id = "gradeinput">
+            <input type = "submit" value = "Submit"  onclick = "inputdata()"><br>
+        </section>
+
+
+    </main>
+
+
+</body>
+</html>

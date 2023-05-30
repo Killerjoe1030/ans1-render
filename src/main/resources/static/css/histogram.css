@@ -1,0 +1,125 @@
+h1{
+    padding: 0px 20px;
+    font-family: sans-serif;
+}
+
+
+th {
+   color: rgb(166, 25, 46);
+   padding: 10px 10px 20px 10px;
+   
+   /* padding: 10px -10px 20px 20px; */
+}
+
+div {
+    background-color: rgb(166, 25, 46);
+    z-index: +1;
+    /* width: 0px; The js file will update this value depending on the grades inputted */
+    height: 10px;
+}
+
+.Aplus{
+    width: 0px;
+    max-width: 250px;   
+    transition: 0.3s ease-in-out; 
+}
+
+.A{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.Aminus{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.Bplus{
+    width: 0px;
+    max-width: 250px;  
+    transition: 0.3s ease-in-out;       
+}
+
+.B{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.Bminus{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.Cplus{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.C{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.Cminus{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.D{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+.F{
+    width: 0px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;     
+}
+
+
+td {
+    padding: 0px 10px 15px;
+    max-width: 250px;
+}
+
+
+.lowerbounds, .HistogramDisplay, .InputBox {
+    background-color: rgb(212, 215, 220); /*needs to be more blue-ish */
+    margin: 20px;
+}
+
+.lowerbounds {
+    display: inline-block;
+    padding: 10px 150px 20px 20px;
+}
+
+.HistogramDisplay {
+    display: inline-block;
+    position: fixed;
+    top: 80px;
+    left: 420px;
+    padding: 0px 276px 10px 0px;
+    max-width: 120px;
+
+}
+
+ .InputBox {
+    padding: 20px;  
+    font-weight: bold;
+    display: inline-block;
+    position: fixed;
+    left: 420px;
+    top: 540px;
+    padding-right: 50px;
+    padding-bottom: 37px;
+
+} 
+
