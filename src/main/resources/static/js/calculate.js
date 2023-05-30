@@ -95,7 +95,7 @@ function updateBound(Num){
         var newMax = document.getElementById("MaxB").value
         if(newMax <= bounds[10] || newMax > MaxGrade){
             newMax.value = 'Invalid Input!'
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")
         }
         else{
             bounds[11] = Number(newMax)
@@ -105,7 +105,7 @@ function updateBound(Num){
     if(Num == 2){
         var newAplus = document.getElementById("AplusB").value 
         if(newAplus <= bounds[9] || newAplus >= bounds[11]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")
         }
         else{
             bounds[10] = Number(newAplus)
@@ -116,7 +116,7 @@ function updateBound(Num){
         var newA = document.getElementById("AB").value 
         console.log(newA)
         if(newA <= bounds[8] || newA >= bounds[10]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[9] = Number(newA)
@@ -126,7 +126,7 @@ function updateBound(Num){
     if(Num == 4){
         var newAminus = document.getElementById("AminusB").value
         if(newAminus <= bounds[7] || newAminus >= bounds[9]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[8] = Number(newAminus)
@@ -136,7 +136,7 @@ function updateBound(Num){
     if(Num == 5){
         var newBplus = document.getElementById("BplusB").value
         if(newBplus <= bounds[6] || newBplus >= bounds[8]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")
         }
         else{
             bounds[7] = Number(newBplus)
@@ -146,7 +146,7 @@ function updateBound(Num){
     if(Num == 6){
         var newB = document.getElementById("BB").value 
         if(newB <= bounds[5] || newB >= bounds[7]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[6] = Number(newB)
@@ -156,7 +156,7 @@ function updateBound(Num){
     if(Num == 7){
         var newBminus = document.getElementById("BminusB").value
         if(newBminus <= bounds[4] || newBminus >= bounds[6]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[5] = Number(newBminus)
@@ -166,7 +166,7 @@ function updateBound(Num){
     if(Num == 8){
         var newCplus = document.getElementById("CplusB").value 
         if(newCplus <= bounds[3] || newCplus >= bounds[5]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[4] = Number(newCplus)
@@ -176,7 +176,7 @@ function updateBound(Num){
     if(Num == 9){
         var newC = document.getElementById("CB").value 
         if(newC <= bounds[2] || newC >= bounds[4]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[3] = Number(newC)
@@ -186,7 +186,7 @@ function updateBound(Num){
     if(Num == 10){
         var newCminus = document.getElementById("CminusB").value 
         if(newCminus <= bounds[1] || newCminus >= bounds[3]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[2] = Number(newCminus)
@@ -196,7 +196,7 @@ function updateBound(Num){
     if(Num == 11){
         var newD = document.getElementById("DB").value 
         if(newD <= bounds[0] || newD >= bounds[2]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[1] = Number(newD)
@@ -206,7 +206,7 @@ function updateBound(Num){
     if(Num == 12){
         var newF = document.getElementById("FB").value 
         if(newF < MinGrade || newF >= bounds[1]){
-            window.alert("Invalid Input! Please make sure the bounds don't overlap")            
+            window.alert("Invalid Input! Please make sure the bounds don't overlap and that the input is within the range of 0.00 - 100.00")            
         }
         else{
             bounds[0] = Number(newF)
